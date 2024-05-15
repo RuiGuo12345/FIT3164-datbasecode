@@ -1,0 +1,31 @@
+CREATE DATABASE HospitalData;
+
+USE HospitalData;
+
+CREATE TABLE PatientRecords (
+    subject_id INT,
+    Sex VARCHAR(255),
+    Service VARCHAR(255),
+    Allergies TEXT,
+    Attending VARCHAR(255),
+    Chief_Complaint TEXT,
+    Major_Surgical_or_Invasive_Procedure TEXT,
+    History_of_Present_Illness TEXT,
+    Past_Medical_History TEXT,
+    Social_History TEXT,
+    Family_History TEXT,
+    Physical_Exam TEXT,
+    Pertinent_Results TEXT,
+    Brief_Hospital_Course TEXT,
+    Medications_on_Admission TEXT,
+    Discharge_Medications TEXT,
+    Discharge_Disposition TEXT,
+    Discharge_Diagnosis TEXT,
+    Discharge_Condition TEXT,
+    Discharge_Instructions TEXT,
+    Followup_Instructions TEXT,
+    PRIMARY KEY (subject_id)
+);
+
+
+
